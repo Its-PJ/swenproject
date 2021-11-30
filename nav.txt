@@ -1,0 +1,14 @@
+<nav id="left-sidebar" class="nav-con">
+    <b><a href="dashboard.html" id="home"> Main Dashboard</a></b>
+    <b><a href="logout.php" id="logout"> Logout</a></b>
+</nav>
+
+<nav id="left-sidebar" class="nav-con">
+    <b><a href="student-dash.html" id="home"> Main Dashboard</a></b>
+    <b><a href="logout.php" id="logout"> Logout</a></b>
+</nav>
+
+<form action ="upload.php" method ="post" enctype="multipart/form-data>
+ <input type="file" id="work-file" name="work-file"
+               accept="accept=".doc, .docx,.ppt, .pptx,.txt,.pdf">
+</form>
